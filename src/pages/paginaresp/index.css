@@ -15,6 +15,11 @@ body {
     position: relative;
   }
   
+  #menu a{
+    text-decoration: none;
+    color: white;
+  }
+
   .menu-toggle {
     display: none;
     font-size: 2em;
@@ -38,6 +43,11 @@ body {
     padding: 20px;
   }
   
+  .imagem{
+    display: flex;
+    align-items: center;
+  }
+
   footer {
     background-color: #333;
     color: white;
@@ -77,12 +87,26 @@ body {
         display: flex;
     }
   
+    header h1 {
+      font-family: 'Playwrite AR';
+      font-size: 1em;
+    }
+
+    main {
+      font-family: 'Roboto';
+    }
+
+    main h2{
+      font-family: 'Grey Qo';
+      font-size: 2.5em;
+    }
+
     footer {
         position: static;
     }
 
     #lobao{
-      width: 500px;
+      width: 400px;
     }
   }
   
@@ -94,13 +118,20 @@ body {
 
     header h1 {
         font-size: 1.5em;
+        font-family: 'Grey Qo';
     }
   
     main {
         padding: 10px;
+        font-family: 'Lato';
+    }
+
+    main h2{
+      font-family: 'Grey Qo';
+      font-size: 35px;
     }
 
     #lobao{
-      width: 250px;
+      width: 200px;
     }
   }
